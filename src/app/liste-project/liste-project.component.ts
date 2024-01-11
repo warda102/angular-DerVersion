@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { ProviderService } from '../../../src/app/provider.service';
 import { Router } from '@angular/router';
-@Component({
-  selector: 'app-finance',
-  templateUrl: './finance.component.html',
-  styleUrls: ['./finance.component.css']
-})
-// export class FinanceComponent {
 
-// }
-export class FinanceComponent implements OnInit {
+@Component({
+  selector: 'app-liste-project',
+  templateUrl: './liste-project.component.html',
+  styleUrls: ['./liste-project.component.css']
+})
+export class ListeProjectComponent implements OnInit {
+
   data: any;
   
 
@@ -33,3 +32,6 @@ export class FinanceComponent implements OnInit {
 
   }
 }
+
+
+
